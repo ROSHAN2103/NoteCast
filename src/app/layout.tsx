@@ -5,8 +5,8 @@ import {Toaster} from '@/components/ui/toaster';
 import {cn} from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'VerbalizeAI',
-  description: 'Turn your text into professional audio with AI.',
+  title: 'NoteCast',
+  description: 'Turn your notes into shareable audio.',
 };
 
 export default function RootLayout({

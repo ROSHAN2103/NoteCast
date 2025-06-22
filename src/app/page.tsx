@@ -14,10 +14,10 @@ export default function Home() {
         </header>
         <div className="w-full max-w-3xl">
           <h1 className="font-headline text-5xl sm:text-6xl md:text-7xl font-bold text-center mb-2 text-foreground">
-            VerbalizeAI
+            NoteCast
           </h1>
           <p className="text-center text-lg text-muted-foreground mb-10">
-            Turn your text into professional audio with AI.
+            Turn your notes into shareable audio.
           </p>
           <VerbalizeForm />
         </div>
