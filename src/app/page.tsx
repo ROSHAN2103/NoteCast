@@ -22,7 +22,7 @@ export default function Home() {
           <VerbalizeForm />
         </div>
         <footer className="absolute bottom-4 text-center text-sm text-muted-foreground">
-          <p>Built with creativity and code.</p>
+          <p>Built with vibe and code.</p>
         </footer>
       </main>
     </div>

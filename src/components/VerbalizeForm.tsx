@@ -130,7 +130,7 @@ export function VerbalizeForm() {
   return (
     <Card className="w-full shadow-2xl bg-card/80 backdrop-blur-sm border-2">
       <CardHeader>
-        <CardTitle className="font-headline text-2xl">Create Your Audio</CardTitle>
+        <CardTitle className="font-headline text-2xl">Audio Notes</CardTitle>
         <CardDescription>
           Enter your text, choose a tone, and let our AI bring it to life.
         </CardDescription>
