@@ -43,7 +43,7 @@ const formSchema = z.object({
   text: z.string().min(10, {
     message: "Please enter at least 10 characters.",
   }).max(10000, {
-    message: "Text cannot exceed 10,000 characters."
+    message: "Notes cannot exceed 10,000 characters."
   }),
   tone: z.enum(["friendly", "professional", "casual"], {
     required_error: "You need to select a voice tone.",
@@ -132,7 +132,7 @@ export function VerbalizeForm() {
       <CardHeader>
         <CardTitle className="font-headline text-2xl">Create your Audio Notes</CardTitle>
         <CardDescription>
-          Enter your text, choose a tone, and let our AI bring it to life.
+          Enter your notes, choose a tone, and let our AI bring it to life.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -143,10 +143,10 @@ export function VerbalizeForm() {
               name="text"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Your Text</FormLabel>
+                  <FormLabel>Your Notes</FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="Paste your content here..."
+                      placeholder="Paste your notes here..."
                       className="min-h-[150px] resize-y"
                       {...field}
                     />

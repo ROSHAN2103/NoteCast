@@ -13,7 +13,7 @@ import {z} from 'genkit';
 import wav from 'wav';
 
 const GenerateAudioInputSchema = z.object({
-  text: z.string().describe('The text to convert to audio.'),
+  text: z.string().describe('The notes to convert to audio.'),
 });
 export type GenerateAudioInput = z.infer<typeof GenerateAudioInputSchema>;
 
